@@ -7,9 +7,7 @@
     <author uuid="715769c5-8c4c-4489-bdf8-f9cee2b2ae8a"/> <!-- amactus -->
     <author uuid="4127e182-a9ec-4c64-b936-2e535a05a308"/> <!-- Aisik -->
 </authors>
-
 <!-- Wools -->
-
 <wools team="red">
     <wool color="cyan" location="82,17,163">
         <monument><block>82,13,23</block></monument>
@@ -32,7 +30,6 @@
         <monument><block>120,12,178</block></monument>
     </wool>
 </wools>
-
 <king>
     <hills>
         <hill name="Gray Woolroom" capture-time="15s" points="1">
@@ -41,7 +38,6 @@
         </hill>
     </hills>
 </king>
-
 <!-- Teams, Kits and Spawns -->
 <teams>
    <team id="red" color="red" max="16" max-overfill="20">Red</team>
@@ -68,7 +64,6 @@
         <item slot="30" damage="10" material="stained clay" amount="64"/>
     </kit>
 </kits>
-
 <spawns>
     <spawn team="red" kit="redk">
         <regions yaw="0">
@@ -86,7 +81,6 @@
         </regions>
     </default>
 </spawns>
-
 <regions> 
     <cuboid id="blue-spawn" min="123,10,178" max="94,22,190"/>
     <apply block-break="never" region="blue-spawn" block-place="never" message="You may not build here!"/>
@@ -95,7 +89,6 @@
     <cuboid id="red-spawn" min="76,10,26" max="111,25,10"/>
     <apply block-break="never" region="red-spawn" block-place="never" message="You may not build here!"/>
 </regions>
-
 <regions> 
     <cylinder base="100,0,100" radius="8" height="25"/>
     <apply block-break="never" block-place="never" message="You may not build here!"/>
@@ -116,7 +109,6 @@
     <cylinder base="82,0,163" radius="8" height="25"/>
     <apply block-break="never" block-place="never" message="You may not build here!"/>
 </regions>
-
 <!-- Settings -->
 <itemremove>
     <item>iron sword</item>
